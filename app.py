@@ -8,7 +8,6 @@ from yolo_detection_images import runModel
 
 app = Flask(__name__)
 
-############################################## THE REAL DEAL ###############################################
 @app.route('/detectObject' , methods=['POST'])
 def mask_image():
 	# print(request.files , file=sys.stderr)
@@ -29,7 +28,6 @@ def mask_image():
 	img_base64 = base64.b64encode(rawBytes.read())
 	return jsonify({'status':str(img_base64)})
 
-##################################################### THE REAL DEAL HAPPENS ABOVE ######################################
 
 @app.route('/test' , methods=['GET','POST'])
 def test():
