@@ -1,0 +1,61 @@
+html {
+  text-align: center;
+  background-color: #365DC7;
+  color: white;
+}
+
+.App-header {
+  background-color: #365DC7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #F2B03E;
+}
+
+
+
+.pre_img{
+  height: 600px;
+  width: 600px;
+
+}
+
+input[type=file]{
+  background-color: #F2B03E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 40px 40px;
+
+
+}
+
+#pre{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 10px 40px;
+}
+
+p{
+  margin: 50px;
+  font-size: 72px;
+}
